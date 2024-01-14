@@ -47,7 +47,6 @@ function loadPokemonItens(offset, limit) {
         const newHTML =  pokemonList.map(convertPokemonToLi).join('')
         pokemonOl.innerHTML += newHTML
 
-        ClickPokemonDetails()
     })
 }
 

@@ -8,3 +8,21 @@ class Pokemon {
     photo;
 
 }
+
+class detailPokemon {
+    number;
+    name;
+    type;
+    types = [];
+    photo;
+    height;
+    weight;
+    abilities = [];
+    hp;
+    attack;
+    defense;
+    spAtk;
+    spDef;
+    speed;
+    total;
+}
